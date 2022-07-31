@@ -1,0 +1,213 @@
+@font-face {
+    font-family: 'Amazon Ember';
+    src: url(../fonts/AmazonEmber_Rg.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'Amazon Ember';
+    font-size: 16px;
+    letter-spacing: .05em;
+    margin: 0;
+    padding: 0;
+}
+
+.main-header{
+    background-color: #1b2530;
+    text-align: center;
+}
+
+.main-header img{
+    width: 8em;
+    padding: 1em;
+}
+
+.main-content{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0em .625em 1em;
+    background-color: #1b2530;
+    height: 45.6em;
+}
+
+.login{
+    margin: auto;
+    width: 70%; 
+    height: 30em;
+    background-color: #225280;
+    border-radius: 2px;
+    padding: 2em;
+}
+
+.login-title{
+    font-family: 'Amazon Ember';
+    text-align: center;
+    color: #fff;
+    font-weight: 550;
+}
+
+.digitar-email{
+    margin: auto;
+    text-align: left;
+}
+
+.label-email{
+    color: #fff;
+    font-weight: 400;
+    font-size: .65em;
+    text-transform: uppercase;
+    padding-bottom: .1875em;
+    margin-left: 2px;
+    margin-bottom: .5em;
+}
+
+.input-email{
+    box-sizing: border-box;
+    width: 100%;
+    height: 3em;
+    display: block;
+    margin: auto;
+    border: 0;
+    padding: 0;
+    padding-left: .3125em;
+    border-radius: 2px;
+}
+
+.input-email:focus{
+    outline: none;
+}
+
+.fieldset-login{
+    border: none;
+}
+
+.default-button{
+    color: #000;
+    background-color: #f3cd6f;
+    box-sizing: border-box;
+    font-size: 1em;
+    margin-top: 2em;
+    width: 100%;
+    height: 3em;
+    padding: 0;
+    border: 0;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all .15s linear;
+    box-shadow: inset 0 0 1em transparent;
+}
+
+.default-button:hover{
+    color: #000;
+    background-color: #f3cd6f;
+    box-shadow: inset 0 0 2em rgba(0, 0, 0, .3);
+}
+
+.default-button-criar-conta{
+    width: 70%;
+    display: block;
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+.concorda{
+    color: #59747e;
+    text-align: left;
+    font-size: .8em;
+    margin-bottom: 0;
+    margin-top: 2em;
+}
+
+.concorda a{
+    text-decoration: none;
+    color: #2974c2;
+    transition: all .2s linear;
+}
+
+.concorda a:hover, .ajuda li a:hover, .links-footer li a:hover{
+    color: white;
+}
+
+.ajuda{
+    list-style: square;
+    list-style-position: outside;
+    color: #59747e;
+    padding-left: 1em;
+    margin-top: 5em;
+}
+
+
+.ajuda li a{
+    text-decoration: none;
+    color: #2974c2;
+    transition: all .2s linear;
+}
+
+.cadastro{
+    box-sizing: border-box;
+    padding-top: 3em;
+}
+
+.cadastro h5{
+    text-align: center;
+    color: #2974c2;
+    margin: 0 5px;
+}
+
+.separacao{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5em;
+}
+
+.novo-l, .novo-r{
+    background-color: #59747e;
+    height: 1px;
+    width: 4.7em;
+}
+
+.main-footer{
+    background-color: #202020;
+    margin-bottom: 1px solid transparent;
+    box-sizing: border-box;
+    padding: 2em 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 10em;
+}
+
+.links-footer{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    list-style-type: none;
+    font-size: .8em;
+}
+
+.links-footer li a{
+    text-decoration: none;
+    color: #2974c2;
+    transition: all .2s linear;
+}
+
+.copyright{
+    margin: 0;
+    color: #949494;
+    text-align: center;
+    font-size: .8em;
+}
+
+@media screen and (min-width: 41.125em){
+    .login{
+        max-width: 32em;
+    }
+    .default-button-criar-conta{
+        max-width: 27.168em;
+    }
+}
